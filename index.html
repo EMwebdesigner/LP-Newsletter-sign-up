@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @font-face {
+        font-family: 'roboto';
+        src: url(assets/fonts/Roboto-Regular.ttf);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'roboto';
+        src: url(assets/fonts/Roboto-Bold.ttf);
+        font-weight: 700;
+    }  
+  </style>
+</head>
+<body>
+
+    <!-- <header class="Header"></header> -->
+
+    <main class="Main">
+
+        <div class="box-imagen">
+        </div>
+  <!-- Sign-up form start -->
+
+        <div class="contenedor">
+            <h1>Stay updated!</h1>
+
+            <p class="parrafo">Join 60,000+ product managers receiving monthly updates on:</p>
+            <ul class="menu">
+                <li class="menu-list">
+                    <img src="assets/images/icon-list.svg" alt="">
+                    <p>Product discovery and building what matters</p>
+                </li>
+                <li class="menu-list">
+                    <img src="assets/images/icon-list.svg" alt="">
+                    <p>Measuring to ensure updates are a success</p>
+                </li>
+                <li class="menu-list">
+                    <img src="assets/images/icon-list.svg" alt="">
+                    <p>And much more!</p>
+                </li>
+            </ul>
+               
+            <form id="formulario" method="post">
+                <label for="email_usuario">Email address</label>
+                <input id="email_usuario" type="email" name="email_usuario" placeholder="email@company.com" required>
+                
+                <button id="boton" type="submit">Subscribe to monthly newsletter</button>
+            </form>
+        </div>
+  <!-- Sign-up form end -->
+
+    </main>
+
+  <!-- Success message start -->
+
+  <div id="thanks">
+    
+  <h1>Thanks for subscribing!</h1>
+
+  <p>A confirmation email has been sent to ash@loremcompany.com.</p> 
+  <p> Please open it and click the button inside to confirm your subscription.</p> 
+
+  Dismiss message
+  </div>
+
+  <!-- Success message end -->
+  
+    <!-- <footer></footer> -->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
